@@ -1,7 +1,7 @@
 export default function Intro() {
     return (
         <>
-        <div class='mt-10 pr-2 p-2 space-x-2 bg-white rounded-t-md text-black 
+        <div class='mt-10 pr-2 p-2 space-x-2 bg-white rounded-t-md text-slate-100
                     text-right flex justify-end'>
             <div class='h-4 w-4 bg-slate-950 rounded-full '></div>
             <div class='h-4 w-4 bg-slate-950 rounded-full '></div>
