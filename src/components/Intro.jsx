@@ -1,17 +1,17 @@
 export default function Intro() {
     return (
-        <>
-        <div class='mt-10 pr-2 p-2 space-x-2 bg-white rounded-t-md text-slate-100
-                    text-right flex justify-end'>
-            <div class='h-4 w-4 bg-slate-950 rounded-full '></div>
-            <div class='h-4 w-4 bg-slate-950 rounded-full '></div>
-            <div class='h-4 w-4 bg-slate-950 rounded-full '></div>
+        <div className='mt-20 mx-auto max-w-4xl rounded-md shadow-[8px_8px_0px_0px_rgba(0,0,0,0.8)]'>
+            <div className='p-1 pr-2 space-x-2 border-black border-2 
+                    text-right flex justify-end rounded-t-md '>
+                <div className='h-3 w-3 border-black border-2 rounded-full '></div>
+                <div className='h-3 w-3 border-black border-2 rounded-full '></div>
+                <div className='h-3 w-3 border-black border-2 rounded-full '></div>
+            </div>
+            <div className='p-10 text-left text-black mt-[-2px] rounded-b-md border-black border-2'>
+                <h1 className='font-plexmono text-4xl'>Welcome!</h1>
+                <h2 className='font-plexmono text-xl'>Here you can find out more about me and my projects!</h2>
+                <h2 className='font-plexmono text-xl'>This website is currently being worked on!</h2>
+            </div>
         </div>
-        <div class='p-10 drop-shadow text-left border-2 border-white rounded-b-md bg-slate-950'>
-            <h1 class='font-plexmono text-2xl'>Welcome!</h1>
-            <h2 class='font-plexmono text-xl'>Here you can find out more about me and my projects!</h2>
-            <h2 class='font-plexmono text-xl'>This website is currently being worked on!</h2>
-        </div> 
-        </>
     );
 }
