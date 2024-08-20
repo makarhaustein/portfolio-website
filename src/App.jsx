@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
   return (
-    <div>
+    <div className='flex items-center w-full flex-col'>
       <Header />
       <Intro />
       <Footer />
