@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Intro from './components/Intro.jsx'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
