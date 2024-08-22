@@ -1,4 +1,3 @@
-
 export default function Header() {
     return (
         <div className='w-full mb-20'>
@@ -6,16 +5,16 @@ export default function Header() {
                 font-plexmono bg-white border-t-2 border-b-2 border-black'>
                 <ul className='m-auto flex justify-evenly max-w-4xl'>
                     <li className='px-3 rounded-lg'>
-                        <a href='' className='underline-animation'>Home</a>
+                        <a href='/' className='underline-animation'>Home</a>
                     </li>
                     <li className='px-3 rounded-lg'>
-                        <a href='' className='underline-animation'>Projects</a>
+                        <a href='/projects' className='underline-animation'>Projects</a>
                     </li>
                     <li className='px-3 rounded-lg'>
-                        <a href='' className='underline-animation'>3D_Models</a>
+                        <a href='/models' className='underline-animation'>3D_Models</a>
                     </li>
                     <li className='px-3 rounded-lg'>
-                        <a href='' className='underline-animation'>About_Me</a>
+                        <a href='/about-me' className='underline-animation'>About_Me</a>
                     </li>
                 </ul>
             </div>
