@@ -1,17 +1,15 @@
-import Intro from './components/Intro.jsx'
-import Header from './components/Header.jsx'
-import Footer from './components/Footer.jsx'
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage.jsx';
 
 function App() {
-
-  return (
-    <div className='flex items-center w-full flex-col'>
-      <Header />
-      <Intro />
-      <Footer />
-    </div>
-  )
+    return (
+        <Router>
+            <Routes> 
+                <Route path='/' element={<HomePage />} />
+            </Routes>
+        </Router>
+    )
 }
 
 export default App
