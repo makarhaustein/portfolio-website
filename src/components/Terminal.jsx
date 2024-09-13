@@ -1,7 +1,7 @@
 export default function Terminal({ children }) {
     return (
-        <div className='w-full flex justify-center'>
-            <div className='mx-4 rounded-md shadow-[8px_8px_0px_0px_rgba(0,0,0,0.8)]'>
+        <div className='flex justify-center'>
+            <div className='mx-4 rounded-md shadow-[8px_8px_0px_0px_rgba(0,0,0,0.8)] bg-white'>
                 <div
                     className='p-1 pr-2 space-x-2 border-black border-2 
                     text-right flex justify-end rounded-t-md '
